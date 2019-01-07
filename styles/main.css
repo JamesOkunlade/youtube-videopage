@@ -8,6 +8,7 @@ ul{
 
 .navigation {
   /*background: blue;*/
+  display: flex;
   margin: 0;
   padding: 0;
 }
@@ -44,4 +45,10 @@ ul{
   height: 20px;
   margin-left: 35px;
 
+}
+.nav-search {
+
+}
+.nav-search ul li {
+  display: inline-block;
 }
