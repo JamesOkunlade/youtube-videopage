@@ -21,7 +21,7 @@ ul {
 .main-content {
   background: red;
   display: flex;
-  padding: 0 50px;
+  padding: 20px 50px;
 }
 
 .left-column {
@@ -32,6 +32,7 @@ ul {
 .right-column {
   background: brown;
   width: 30%;
+  margin-left: 20px;
 }
 
 .menu img {
@@ -70,4 +71,10 @@ ul {
   display: inline-block;
   margin: 0 10px;
   color: #000;
+}
+
+
+.video-box {
+  width: 100%;
+
 }
