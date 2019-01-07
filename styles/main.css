@@ -12,26 +12,29 @@ ul {
 }
 
 .navigation {
-  display: flex;
-  margin: 0;
-  padding: 0;
+  display: inline-block;
+  width: 100%;
   height: 60px;
-  /* position: fixed; */
-  background: red;
+  margin: 0;
+  padding: 5px 0;
+  border-bottom: 1px solid #999;
+  position: fixed;
+  background: #fff;
 }
 
 .main-content {
   display: flex;
   padding: 20px 50px;
   height: auto;
-  /* margin-top: 65px; */
 }
 
 .left-column {
   width: 70%;
+  margin-top: 65px;
 }
 
 .right-column {
+  margin-top: 65px;
   width: 30%;
   margin-left: 20px;
 }
@@ -49,23 +52,39 @@ ul {
 
 .nav-brand {
   width: 20%;
+  float: left;
 }
 
 .nav-search {
   width: 60%;
   text-align: center;
+  float: left;
 }
 
 .nav-thumbnails {
   width: 20%;
+  float: left;
 }
 
 .nav-brand ul li {
   display: inline;
 }
+.nav-search ul {
+  width: 100%;
+
+}
 
 .nav-search ul li {
   display: inline-block;
+  background: green;
+  margin: 0;
+}
+.nav-search ul input {
+  width: 800px;
+  padding: 10px;
+}
+.nav-search ul i {
+  padding: 10px;
 }
 
 .nav-thumbnails ul li {
