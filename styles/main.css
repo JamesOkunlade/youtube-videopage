@@ -2,28 +2,46 @@ body {
   margin: 0;
   padding: 0;
 }
+ul{
+  list-style: none;
+}
 
 .navigation {
-  background: blue;
+  /*background: blue;*/
   margin: 0;
   padding: 0;
 }
 
 .main-content {
-  width: 100%;
   background: red;
-  display: inline-block;
-  padding: 0 100px;
+  display: flex;
+  padding: 0 50px;
 }
 
 .left-column {
   background: green;
   width: 70%;
-  float: left;
+  
 }
 
 .right-column {
   background: brown;
   width: 30%;
-  float: right;
+  
+}
+
+.nav-brand ul li{
+  display: inline;
+}
+
+.menu img{
+  height: 20px;
+  width: 20px;
+}
+
+.logo img{
+  width: 100px;
+  height: 20px;
+
+
 }
