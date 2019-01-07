@@ -2,3 +2,28 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.navigation {
+  background: blue;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  width: 100%;
+  background: red;
+  display: inline-block;
+  padding: 0 100px;
+}
+
+.left-column {
+  background: green;
+  width: 70%;
+  float: left;
+}
+
+.right-column {
+  background: brown;
+  width: 30%;
+  float: right;
+}
