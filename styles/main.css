@@ -16,14 +16,15 @@ ul {
   margin: 0;
   padding: 0;
   height: 60px;
-  position: fixed;
+  /* position: fixed; */
+  background: red;
 }
 
 .main-content {
   display: flex;
   padding: 20px 50px;
   height: auto;
-  margin-top: 65px;
+  /* margin-top: 65px; */
 }
 
 .left-column {
