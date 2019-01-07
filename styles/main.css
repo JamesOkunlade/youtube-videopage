@@ -19,18 +19,16 @@ ul {
 }
 
 .main-content {
-  background: red;
   display: flex;
   padding: 20px 50px;
 }
 
 .left-column {
-  background: green;
   width: 70%;
 }
 
 .right-column {
-  background: brown;
+
   width: 30%;
   margin-left: 20px;
 }
@@ -77,4 +75,23 @@ ul {
 .video-box {
   width: 100%;
 
+}
+.video-details {
+  display: flex;
+}
+.video-views {
+  width: 60%;
+
+}
+.video-metadata {
+  width: 40%;
+
+}
+
+.video-metadata ul li {
+  display: inline-block;
+  margin: 10px;
+}
+span {
+  padding:  10px;
 }
