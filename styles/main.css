@@ -12,7 +12,6 @@ ul {
 }
 
 .navigation {
-  /*background: blue;*/
   display: flex;
   margin: 0;
   padding: 0;
@@ -21,6 +20,7 @@ ul {
 .main-content {
   display: flex;
   padding: 20px 50px;
+  height: auto;
 }
 
 .left-column {
@@ -28,7 +28,6 @@ ul {
 }
 
 .right-column {
-
   width: 30%;
   margin-left: 20px;
 }
@@ -71,27 +70,69 @@ ul {
   color: #000;
 }
 
-
 .video-box {
   width: 100%;
-
 }
+
 .video-details {
   display: flex;
+  border-bottom: 1px solid #999;
 }
+
 .video-views {
   width: 60%;
-
 }
+
 .video-metadata {
   width: 40%;
-
 }
 
 .video-metadata ul li {
   display: inline-block;
   margin: 10px;
 }
+
 span {
-  padding:  10px;
+  padding: 10px;
+}
+
+.video-details .video-metadata a:hover {
+  border-bottom: 2px solid #999;
+  color: red !important;
+}
+
+.video-middle-content {
+  border-bottom: 1px solid #999;
+
+}
+.video-publisher ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.video-post {
+  display: flex;
+  margin: 20px auto;
+}
+.video-post .video-thumbnail {
+  float: left;
+  width: 10%;
+
+}
+.video-post .video-publisher {
+  width: 70%;
+  padding: 0 5px;
+}
+.video-post .subscribe-btn {
+  width: 20%;
+}
+.video-post .subscribe-btn input {
+  background: red;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+}
+
+.last-content {
+  margin: 20px auto;
 }
