@@ -12,10 +12,11 @@ ul {
 }
 
 .navigation {
-  /*background: blue;*/
   display: flex;
   margin: 0;
   padding: 0;
+  height: 60px;
+  position: fixed;
 }
 
 .main-content {
