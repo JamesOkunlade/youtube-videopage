@@ -1,142 +1,275 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/main.css">
-    <title>Youtube | Homepage</title>
-  </head>
 
-  <body>
-    <nav class="navigation">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>Youtube | Homepage</title>
+</head>
 
-      <div class="nav-brand">
-        <ul>
-          <li class="menu"><img src="img/menu.png"></li>
-          <li class="logo"><img src="img/logo.png"></li>
-        </ul>
+<body>
+  <nav class="navigation">
+
+    <div class="nav-brand">
+      <ul>
+        <li class="menu"><img src="img/menu.png"></li>
+        <li class="logo"><img src="img/logo.png"></li>
+      </ul>
+    </div>
+
+    <div class="nav-search">
+      <ul>
+        <li><input type="text" name="fname"></li>
+        <li><button><i class="fas fa-search"></i></button></li>
+      </ul>
+    </div>
+
+    <div class="nav-thumbnails">
+      <ul>
+        <li><a href=""><i class="fas fa-video"></i></a></li>
+        <li><a href=""><i class="fas fa-th"></i></a></li>
+        <li><a href=""><i class="fas fa-comment"></i></i></a></li>
+        <li><a href=""><i class="fas fa-bell"></i></a></li>
+        <li><a href=""><i class="fas fa-user-circle"></i></i></a></li>
+
+      </ul>
+    </div>
+
+  </nav>
+  <div class="main-content">
+    <div class="left-column">
+      <div class="video-box">
+        <iframe width="100%" height="700px" src="https://www.youtube.com/embed/UnTQVlqmDQ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
-
-      <div class="nav-search">
-        <ul>
-          <li><input type="text" name="fname"></li>
-          <li><button><i class="fas fa-search"></i></button></li>
-        </ul>
-      </div>
-
-      <div class="nav-thumbnails">
-        <ul>
-          <li><a href=""><i class="fas fa-video"></i></a></li>
-          <li><a href=""><i class="fas fa-th"></i></a></li>
-          <li><a href=""><i class="fas fa-comment"></i></i></a></li>
-          <li><a href=""><i class="fas fa-bell"></i></a></li>
-          <li><a href=""><i class="fas fa-user-circle" ></i></i></a></li>
-
-        </ul>
-      </div>
-
-    </nav>
-
-    <div class="main-content">
-      <div class="left-column">
-        
-      </div>
-
-
-      <!-- Right Video Thumbline Start from here. --> 
-      <div class="right-column">
-        <div class="right_ads"> 
-            <img src="img/ads.png">
+      <h2>Web Development In 2019 - A Practical Guide</h2>
+      <div class="video-details">
+        <div class="video-views">
+          <h2>185,569 views</h2>
         </div>
-
-        <div class="right_autoplay">
+        <div class="video-metadata">
           <ul>
-            <li class="autopaly_label">Up next</li>
-            <li class="autopaly_button float_right">AUTOPLAY
-              <label class="switch">
-                <input type="checkbox">
-                <span class="slider round"></span>
-              </label>
-            </li>
+            <li><a href=""><i class="fas fa-thumbs-up"></i></a><span>9.3k</span></li>
+            <li><a href=""><i class="fas fa-thumbs-down"></i></a><span>80</span></li>
+            <li><a href=""><i class="fas fa-share"></i></a><span>SHARE</span></li>
+            <li><a href=""><i class="far fa-plus-square"></i></a><span>SAVE</span></li>
+            <li><a href=""><i class="fas fa-ellipsis-h"></i></a></li>
+
           </ul>
         </div>
 
-        <div class="right_thumbs_videos">
-          <ul>
-            <li><a href="">
-              <img class="" src="img/video-thumbs/1.png">
-              <div class="thumbs_intro float_right">
-                <h3>SQL vs NoSQL or MySQL vs MongoDB</h3>
-                <p>Academind</p>
-                <p>242K views</p>
-             </div>
-            </a></li>
 
-             <li><a href="">
-              <img class="" src="img/video-thumbs/2.png">
-              <div class="thumbs_intro float_right">
-                <h3>SQL vs NoSQL or MySQL vs MongoDB</h3>
-                <p>Academind</p>
-                <p>242K views</p>
-             </div>
-            </a></li>
-
-             <li><a href="">
-              <img class="" src="img/video-thumbs/3.png">
-              <div class="thumbs_intro float_right">
-                <h3>SQL vs NoSQL or MySQL vs MongoDB</h3>
-                <p>Academind</p>
-                <p>242K views</p>
-             </div>
-            </a></li>
-
-            <li><a href="">
-              <img class="" src="img/video-thumbs/4.png">
-              <div class="thumbs_intro float_right">
-                <h3>SQL vs NoSQL or MySQL vs MongoDB</h3>
-                <p>Academind</p>
-                <p>242K views</p>
-             </div>
-            </a></li>
-
-            <li><a href="">
-              <img class="" src="img/video-thumbs/5.png">
-              <div class="thumbs_intro float_right">
-                <h3>SQL vs NoSQL or MySQL vs MongoDB</h3>
-                <p>Academind</p>
-                <p>242K views</p>
-             </div>
-            </a></li>
-
-            <li><a href="">
-              <img class="" src="img/video-thumbs/6.png">
-              <div class="thumbs_intro float_right">
-                <h3>SQL vs NoSQL or MySQL vs MongoDB</h3>
-                <p>Academind</p>
-                <p>242K views</p>
-             </div>
-            </a></li>
-
-            <li><a href="">
-              <img class="" src="img/video-thumbs/7.png">
-              <div class="thumbs_intro float_right">
-                <h3>SQL vs NoSQL or MySQL vs MongoDB</h3>
-                <p>Academind</p>
-                <p>242K views</p>
-             </div>
-            </a></li>
-
-
-
-
-
-          </ul>
-          
+      </div>
+      <div class="video-middle-content">
+        <div class="video-post">
+          <div class="video-thumbnail">
+            <img src="img/videoThumbnail.png" alt="Video Thumbnail" style="height: 100px; width: 100px"/>
+          </div>
+          <div class="video-publisher">
+            <h3><strong>Traversy Media</strong></h3>
+            <h3>Published on Dec 20, 2018</h3>
+            <br>
+            <p>This is my yearly step by step guide to becoming a web developer in 2019. We will look at nearly all aspects of web technology including the necessities as well as some of the new trends for 2019.</p>
+            <br>
+            <h3>SHOW MORE</h3>
+          </div>
+          <div class="subscribe-btn">
+            <input type="submit" name="subscribe" value="SUBSCRIBE 549K">
+          </div>
         </div>
-        
-      </div><!-- Right Video Thumbline ends. --> 
+      </div>
+      <div class="last-content">
+        <span>754 Comments</span>
+        <span>SORT BY</span>
+        <div class="video-post">
+          <div class="video-thumbnail">
+            <img src="img/thumbnail5.png" alt="Video Thumbnail" style="height: 100px; width: 100px"/>
+          </div>
+          <div class="video-publisher">
+            <h3>Add a public comment...</h3>
+            <hr>
+
+
+          </div>
+        </div>
+        <div class="video-post">
+          <div class="video-thumbnail">
+            <img src="img/videoThumbnail.png" alt="Video Thumbnail" style="height: 100px; width: 100px"/>
+          </div>
+          <div class="video-publisher">
+            <h4><strong>Traversy Media</strong></h4>
+            <h3>Hope you guys like it. I am bound to miss something so feel free to let us know what other tech you are using or are interested in..﻿</h3>
+            <ul>
+              <li><a href=""><i class="fas fa-thumbs-up"></i></a><span>9.3k</span></li>
+              <li><a href=""><i class="fas fa-thumbs-down"></i></a><span>80</span></li>
+            </ul>
+            <h3>VIEW 7 REPLIES</h3>
+
+          </div>
+        </div>
+        <div class="video-post">
+          <div class="video-thumbnail">
+            <img src="img/thumbnail1.png" alt="Video Thumbnail" style="height: 100px; width: 100px"/>
+          </div>
+          <div class="video-publisher">
+            <h4><strong>Ahmed Ben Gayess <span>2 weeks ago</span></strong></h4>
+            <h3>I started learning web development in march and I followed your 2018 guide and now I'm a freelance fullstack web developer! So thank you for showing me the way!﻿﻿</h3>
+            <ul>
+              <li><a href=""><i class="fas fa-thumbs-up"></i></a><span>9.3k</span></li>
+              <li><a href=""><i class="fas fa-thumbs-down"></i></a><span>80</span></li>
+            </ul>
+            <h3>VIEW 8 REPLIES</h3>
+
+          </div>
+        </div>
+        <div class="video-post">
+          <div class="video-thumbnail">
+            <img src="img/thumbnail2.png" alt="Video Thumbnail" style="height: 100px; width: 100px"/>
+          </div>
+          <div class="video-publisher">
+            <h4><strong>Andrew Webb 2 weeks ago</strong></h4>
+            <h3>BTW - Adobe XD was made free this year.﻿﻿</h3>
+            <ul>
+              <li><a href=""><i class="fas fa-thumbs-up"></i></a><span>9.3k</span></li>
+              <li><a href=""><i class="fas fa-thumbs-down"></i></a><span>80</span></li>
+            </ul>
+            <h3>VIEW 4 REPLIES</h3>
+
+          </div>
+        </div>
+        <div class="video-post">
+          <div class="video-thumbnail">
+            <img src="img/thumbnail3.png" alt="Video Thumbnail" style="height: 100px; width: 100px"/>
+          </div>
+          <div class="video-publisher">
+            <h4><strong>Myles Gmail</strong></h4>
+            <h3>Thx so much, Merry Christmas!﻿﻿</h3>
+            <ul>
+              <li><a href=""><i class="fas fa-thumbs-up"></i></a><span>9.3k</span></li>
+              <li><a href=""><i class="fas fa-thumbs-down"></i></a><span>80</span></li>
+            </ul>
+            <h3>VIEW 13 REPLIES</h3>
+
+          </div>
+        </div>
+        <div class="video-post">
+          <div class="video-thumbnail">
+            <img src="img/thumbnail4.png" alt="Video Thumbnail" style="height: 100px; width: 100px"/>
+          </div>
+          <div class="video-publisher">
+            <h4><strong>Niraj Narkhede</strong></h4>
+            <h3>Do you even realize that your web dev video series is like a bible? You nailed them every time :) I knew nothing when I first watched your video "web dev in 2018", and now I am basic front-end developer! I'm learning React now and will learn more about what you mentioned to be a full-stack badass :) Thank you very much and Happy X-Max!﻿﻿</h3>
+            <ul>
+              <li><a href=""><i class="fas fa-thumbs-up"></i></a><span>9.3k</span></li>
+              <li><a href=""><i class="fas fa-thumbs-down"></i></a><span>80</span></li>
+            </ul>
+            <h3>VIEW REPLIES</h3>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="right-column">
+
+
+
+      
+
+      <div class="right_ads">
+          <img src="img/ads.png">
+      </div>
+
+      <div class="right_autoplay">
+        <ul>
+          <li class="autopaly_label">Up next</li>
+          <li class="autopaly_button float_right">AUTOPLAY
+            <label class="switch">
+              <input type="checkbox">
+              <span class="slider round"></span>
+            </label>
+          </li>
+        </ul>
+      </div>
+
+      <div class="right_thumbs_videos">
+        <ul>
+          <li><a href="">
+            <img class="" src="img/video-thumbs/1.png">
+            <div class="thumbs_intro float_right">
+              <h3>SQL vs NoSQL or MySQL vs MongoDB</h3>
+              <p>Academind</p>
+              <p>242K views</p>
+           </div>
+          </a></li>
+
+           <li><a href="">
+            <img class="" src="img/video-thumbs/2.png">
+            <div class="thumbs_intro float_right">
+              <h3>SQL vs NoSQL or MySQL vs MongoDB</h3>
+              <p>Academind</p>
+              <p>242K views</p>
+           </div>
+          </a></li>
+
+           <li><a href="">
+            <img class="" src="img/video-thumbs/3.png">
+            <div class="thumbs_intro float_right">
+              <h3>SQL vs NoSQL or MySQL vs MongoDB</h3>
+              <p>Academind</p>
+              <p>242K views</p>
+           </div>
+          </a></li>
+
+          <li><a href="">
+            <img class="" src="img/video-thumbs/4.png">
+            <div class="thumbs_intro float_right">
+              <h3>SQL vs NoSQL or MySQL vs MongoDB</h3>
+              <p>Academind</p>
+              <p>242K views</p>
+           </div>
+          </a></li>
+
+          <li><a href="">
+            <img class="" src="img/video-thumbs/5.png">
+            <div class="thumbs_intro float_right">
+              <h3>SQL vs NoSQL or MySQL vs MongoDB</h3>
+              <p>Academind</p>
+              <p>242K views</p>
+           </div>
+          </a></li>
+
+          <li><a href="">
+            <img class="" src="img/video-thumbs/6.png">
+            <div class="thumbs_intro float_right">
+              <h3>SQL vs NoSQL or MySQL vs MongoDB</h3>
+              <p>Academind</p>
+              <p>242K views</p>
+           </div>
+          </a></li>
+
+          <li><a href="">
+            <img class="" src="img/video-thumbs/7.png">
+            <div class="thumbs_intro float_right">
+              <h3>SQL vs NoSQL or MySQL vs MongoDB</h3>
+              <p>Academind</p>
+              <p>242K views</p>
+           </div>
+          </a></li>
+        </ul>
+      </div>
+
+
+
+
+
+
 
     </div>
 
-  </body>
+  </div>
+
+</body>
+
 </html>
