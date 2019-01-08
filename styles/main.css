@@ -150,7 +150,7 @@ input:checked+.slider:before {
 }
 
 .nav-search ul input {
-  width: 800px;
+  width: 500px;
   padding: 10px;
 }
 
@@ -294,10 +294,33 @@ input:checked+.slider:before {
   border-radius: 50%;
 }
 
-.float_left {
-  float: left;
+.right_ads img{
+    height: 250px;
+    width: 250px;
+    margin-top: 63px;
 }
 
-.float_right {
-  float: right;
+.right_autoplay {
+
+}
+.right_autoplay ul li {
+  display: inline-block;
+}
+.right_thumbs_videos{
+  width: 100%;
+}
+
+.right_thumbs_videos ul li {
+    margin-top: 30px;
+}
+.right_thumbs_videos ul li a img {
+  height: 110px;
+  width: 50%;
+  margin-left: -36px
+}
+
+.thumbs_intro {
+  width: 50%;
+  height: 110px;
+  margin-top: -30px;
 }
