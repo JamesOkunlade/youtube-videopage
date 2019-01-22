@@ -103,7 +103,7 @@ input:checked+.slider:before {
 }
 
 .right-column {
-  <<<<<<< HEAD margin-top: 65px;
+  margin-top: 65px;
   width: 30%;
   margin-left: 20px;
 }
@@ -300,9 +300,7 @@ input:checked+.slider:before {
     margin-top: 63px;
 }
 
-.right_autoplay {
 
-}
 .right_autoplay ul li {
   display: inline-block;
 }
